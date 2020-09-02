@@ -1,0 +1,572 @@
+2020-03-12 13:35:13,321 - [test_register.py-->line:66] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-12 13:35:13,321 - [test_register.py-->line:67] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 62, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-12 13:35:13,613 - [test_register.py-->line:66] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-12 13:35:13,613 - [test_register.py-->line:67] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 62, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-12 17:38:25,692 - [test_register.py-->line:73] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-12 17:38:25,693 - [test_register.py-->line:74] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 64, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-12 17:38:25,933 - [test_register.py-->line:73] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-12 17:38:25,934 - [test_register.py-->line:74] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 64, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 12:02:19,507 - [test_register.py-->line:84] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 12:02:19,757 - [test_register.py-->line:79] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 12:02:19,757 - [test_register.py-->line:80] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 70, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 16:58:55,226 - [test_register.py-->line:79] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 16:58:55,226 - [test_register.py-->line:80] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 70, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 16:58:55,492 - [test_register.py-->line:79] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 16:58:55,492 - [test_register.py-->line:80] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 70, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 16:59:13,096 - [test_register.py-->line:84] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 16:59:13,346 - [test_register.py-->line:79] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 16:59:13,346 - [test_register.py-->line:80] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 70, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:01:27,748 - [test_register.py-->line:74] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:01:27,748 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:01:27,983 - [test_register.py-->line:74] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:01:27,983 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:02:14,922 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:02:15,250 - [test_register.py-->line:74] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:02:15,250 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:03:03,901 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:03:04,260 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:04:36,506 - [test_register.py-->line:74] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:04:36,506 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:05:06,397 - [test_register.py-->line:74] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:05:06,397 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:05:37,579 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:05:37,798 - [test_register.py-->line:74] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:05:37,798 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:06:03,598 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:06:03,958 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:20:05,384 - [test_login.py-->line:76] - ERROR: 用例：登录成功，执行未通过
+2020-03-13 17:20:05,384 - [test_login.py-->line:77] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_login.py", line 67, in test_login
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:20:05,646 - [test_register.py-->line:74] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:20:05,646 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:20:05,991 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:24:41,627 - [test_login.py-->line:76] - ERROR: 用例：登录成功，执行未通过
+2020-03-13 17:24:41,627 - [test_login.py-->line:77] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_login.py", line 67, in test_login
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:24:41,868 - [test_register.py-->line:74] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:24:41,868 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:24:42,147 - [test_register.py-->line:74] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:24:42,147 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:25:32,663 - [test_login.py-->line:76] - ERROR: 用例：登录成功，执行未通过
+2020-03-13 17:25:32,663 - [test_login.py-->line:77] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_login.py", line 67, in test_login
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:25:32,914 - [test_register.py-->line:74] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:25:32,915 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:25:33,127 - [test_register.py-->line:74] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:25:33,127 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:31:22,990 - [test_login.py-->line:71] - ERROR: 用例：登录成功，执行未通过
+2020-03-13 17:31:22,990 - [test_login.py-->line:72] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_login.py", line 67, in test_login
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:31:23,241 - [test_register.py-->line:74] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:31:23,241 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:31:23,459 - [test_register.py-->line:74] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:31:23,459 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:40:52,304 - [test_register.py-->line:74] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:40:52,304 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:40:52,724 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:42:27,772 - [test_register.py-->line:74] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:42:27,772 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:42:28,145 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:43:16,241 - [test_login.py-->line:71] - ERROR: 用例：登录成功，执行未通过
+2020-03-13 17:43:16,241 - [test_login.py-->line:72] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_login.py", line 67, in test_login
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:43:16,507 - [test_register.py-->line:74] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:43:16,508 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:43:16,884 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:50:12,548 - [test_register.py-->line:74] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:50:12,548 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:50:12,756 - [test_register.py-->line:74] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:50:12,756 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:51:29,959 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:51:30,302 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:52:08,626 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:52:08,853 - [test_register.py-->line:74] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:52:08,853 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:53:53,740 - [test_register.py-->line:74] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:53:53,740 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:53:53,975 - [test_register.py-->line:74] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 17:53:53,975 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:54:26,193 - [test_register.py-->line:74] - ERROR: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 17:54:26,193 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 17:54:26,548 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 18:24:44,256 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 18:24:44,626 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 18:33:50,210 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 18:33:50,563 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 18:34:47,959 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 18:34:48,319 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 18:52:35,079 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 18:52:35,287 - [test_register.py-->line:74] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-13 18:52:35,287 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-13 18:55:49,428 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 18:55:49,771 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 19:11:26,803 - [test_login.py-->line:71] - ERROR: 用例：登录成功，执行未通过
+2020-03-13 19:11:26,803 - [test_login.py-->line:72] - ERROR: 201 != 200
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_login.py", line 67, in test_login
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 200
+2020-03-13 19:11:27,193 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 19:11:27,548 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 19:12:05,017 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-13 19:12:05,385 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 19:12:05,755 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-13 19:16:42,974 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-13 19:16:43,385 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-13 19:16:43,740 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 10:12:53,055 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 10:12:53,539 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 10:12:53,914 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 10:53:31,120 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 10:53:31,708 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 10:53:32,088 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 10:54:51,677 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 10:54:52,256 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 10:54:52,623 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 10:55:48,724 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 10:55:49,288 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 10:55:49,537 - [test_register.py-->line:74] - ERROR: 用例：成功-不带邮箱，执行未通过
+2020-03-14 10:55:49,537 - [test_register.py-->line:75] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_register.py", line 65, in test_register
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-14 11:11:37,646 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 11:11:38,224 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 11:11:38,633 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 13:23:03,569 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 13:23:04,163 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 13:23:04,517 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 13:24:58,095 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 13:24:58,678 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 13:24:59,055 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 14:25:19,930 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 14:25:20,276 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 14:25:57,891 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 14:25:58,447 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 14:25:58,801 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 19:41:59,417 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 19:41:59,990 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 19:42:00,371 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 19:43:31,537 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 19:43:32,146 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 19:43:32,509 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 19:44:56,748 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 19:44:57,394 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 19:44:57,748 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 20:50:21,764 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 20:50:22,385 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 20:50:22,756 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 20:50:52,091 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 20:50:52,865 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 20:50:53,264 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 20:51:07,766 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 20:51:08,357 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 20:51:08,830 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-14 20:52:24,694 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-14 20:52:25,147 - [test_projects.py-->line:85] - INFO: 用例：创建项目成功，执行未通过
+2020-03-14 20:52:25,538 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-14 20:52:25,916 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-15 11:29:35,292 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-15 11:29:35,659 - [test_login.py-->line:76] - INFO: 用例：登录失败-账号未注册，执行未通过
+2020-03-15 11:29:35,898 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写账号，执行未通过
+2020-03-15 11:29:36,133 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写密码，执行未通过
+2020-03-15 11:29:36,567 - [test_projects.py-->line:80] - ERROR: 用例：创建项目成功，执行未通过
+2020-03-15 11:29:36,568 - [test_projects.py-->line:81] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_projects.py", line 70, in test_project
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-15 11:29:37,002 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-15 11:29:37,380 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-15 11:31:03,006 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-15 11:31:03,374 - [test_login.py-->line:76] - INFO: 用例：登录失败-账号未注册，执行未通过
+2020-03-15 11:31:03,622 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写账号，执行未通过
+2020-03-15 11:31:03,849 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写密码，执行未通过
+2020-03-15 11:31:04,289 - [test_projects.py-->line:85] - INFO: 用例：创建项目成功，执行未通过
+2020-03-15 11:31:04,678 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-15 11:31:05,040 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-15 19:27:46,753 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-15 19:27:47,108 - [test_login.py-->line:76] - INFO: 用例：登录失败-账号未注册，执行未通过
+2020-03-15 19:27:47,344 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写账号，执行未通过
+2020-03-15 19:27:47,578 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写密码，执行未通过
+2020-03-15 19:27:47,947 - [test_login.py-->line:71] - ERROR: 用例：登陆失败-用户名为中文，执行未通过
+2020-03-15 19:27:47,948 - [test_login.py-->line:72] - ERROR: 401 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_login.py", line 67, in test_login
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 401 != 400
+2020-03-15 19:27:48,420 - [test_projects.py-->line:80] - ERROR: 用例：创建项目成功，执行未通过
+2020-03-15 19:27:48,420 - [test_projects.py-->line:81] - ERROR: 201 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\Python测试开发平台需求分析\py26-test\testcases\test_projects.py", line 70, in test_project
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 201 != 400
+2020-03-15 19:27:48,828 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-15 19:27:49,221 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-15 19:42:44,508 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-15 19:42:44,870 - [test_login.py-->line:76] - INFO: 用例：登录失败-账号未注册，执行未通过
+2020-03-15 19:42:45,118 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写账号，执行未通过
+2020-03-15 19:42:45,351 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写密码，执行未通过
+2020-03-15 19:42:45,726 - [test_login.py-->line:76] - INFO: 用例：登陆失败-用户名为中文，执行未通过
+2020-03-15 19:42:46,227 - [test_projects.py-->line:89] - INFO: 用例：创建项目成功，执行未通过
+2020-03-15 19:42:46,738 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-15 19:42:47,247 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-16 15:40:08,320 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-16 15:40:08,712 - [test_login.py-->line:76] - INFO: 用例：登录失败-账号未注册，执行未通过
+2020-03-16 15:40:09,026 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写账号，执行未通过
+2020-03-16 15:40:09,303 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写密码，执行未通过
+2020-03-16 15:40:09,702 - [test_login.py-->line:76] - INFO: 用例：登陆失败-用户名为中文，执行未通过
+2020-03-16 15:40:10,157 - [test_projects.py-->line:89] - INFO: 用例：创建项目成功，执行未通过
+2020-03-16 15:40:10,619 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-16 15:40:11,031 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-16 15:47:22,033 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-16 15:47:22,417 - [test_login.py-->line:76] - INFO: 用例：登录失败-账号未注册，执行未通过
+2020-03-16 15:47:22,660 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写账号，执行未通过
+2020-03-16 15:47:23,025 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写密码，执行未通过
+2020-03-16 15:47:23,388 - [test_login.py-->line:76] - INFO: 用例：登陆失败-用户名为中文，执行未通过
+2020-03-16 15:47:23,825 - [test_projects.py-->line:89] - INFO: 用例：创建项目成功，执行未通过
+2020-03-16 15:47:24,226 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-16 15:47:24,628 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-16 19:00:49,658 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-16 19:00:50,079 - [test_login.py-->line:76] - INFO: 用例：登录失败-账号未注册，执行未通过
+2020-03-16 19:00:50,334 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写账号，执行未通过
+2020-03-16 19:00:50,633 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写密码，执行未通过
+2020-03-16 19:00:50,999 - [test_login.py-->line:76] - INFO: 用例：登陆失败-用户名为中文，执行未通过
+2020-03-16 19:00:51,432 - [test_projects.py-->line:89] - INFO: 用例：创建项目成功，执行未通过
+2020-03-16 19:00:51,853 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-16 19:00:52,249 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-17 17:07:16,991 - [test_login.py-->line:71] - ERROR: 用例：登录成功，执行未通过
+2020-03-17 17:07:17,035 - [test_login.py-->line:72] - ERROR: 200 != 400
+Traceback (most recent call last):
+  File "E:\Documents\Desktop\cloud-api\API\testcases\test_login.py", line 67, in test_login
+    self.assertEqual(expected["status"], ses)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 820, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\GF_Xie\AppData\Local\Programs\Python\Python35\lib\unittest\case.py", line 813, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 200 != 400
+2020-03-17 17:07:17,438 - [test_login.py-->line:76] - INFO: 用例：登录失败-账号未注册，执行未通过
+2020-03-17 17:07:17,685 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写账号，执行未通过
+2020-03-17 17:07:17,926 - [test_login.py-->line:76] - INFO: 用例：登陆失败-未填写密码，执行未通过
+2020-03-17 17:07:18,285 - [test_login.py-->line:76] - INFO: 用例：登陆失败-用户名为中文，执行未通过
+2020-03-17 17:07:18,936 - [test_register.py-->line:79] - INFO: 用例：注册成功-带邮箱，执行未通过
+2020-03-17 17:07:19,316 - [test_register.py-->line:79] - INFO: 用例：成功-不带邮箱，执行未通过
+2020-03-18 10:30:36,578 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-18 10:32:41,925 - [test_login.py-->line:76] - INFO: 用例：登录成功，执行未通过
+2020-03-19 09:47:21,144 - [test_login.py-->line:77] - INFO: 用例：登录成功，执行未通过
+2020-03-19 10:19:34,550 - [test_login.py-->line:77] - INFO: 用例：登陆失败-密码为空，执行未通过
+2020-03-19 10:19:34,662 - [test_login.py-->line:77] - INFO: 用例：登陆失败-loginType缺失，执行未通过
+2020-03-19 10:19:34,772 - [test_login.py-->line:77] - INFO: 用例：登陆失败-loginType为0，执行未通过
+2020-03-19 10:19:34,890 - [test_login.py-->line:77] - INFO: 用例：登陆失败-手机号未注册，执行未通过
+2020-03-19 10:19:35,003 - [test_login.py-->line:77] - INFO: 用例：登陆失败-密码错误，执行未通过
+2020-03-19 10:21:38,198 - [test_login.py-->line:77] - INFO: 用例：登录成功，执行未通过
+2020-03-19 10:21:38,303 - [test_login.py-->line:77] - INFO: 用例：登陆失败-手机号为空，执行未通过
+2020-03-19 10:21:38,415 - [test_login.py-->line:77] - INFO: 用例：登陆失败-密码为空，执行未通过
+2020-03-19 10:21:38,520 - [test_login.py-->line:77] - INFO: 用例：登陆失败-loginType缺失，执行未通过
+2020-03-19 10:21:38,620 - [test_login.py-->line:77] - INFO: 用例：登陆失败-loginType为0，执行未通过
+2020-03-19 10:21:38,745 - [test_login.py-->line:77] - INFO: 用例：登陆失败-手机号未注册，执行未通过
+2020-03-19 10:21:38,880 - [test_login.py-->line:77] - INFO: 用例：登陆失败-密码错误，执行未通过
